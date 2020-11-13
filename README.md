@@ -1,6 +1,6 @@
 # swagger-group-demo
 swagger api文档 可以用同一个model根据group在不同api里展示不同字段和描述
-运行项目访问 http://192.168.1.233:8081/swagger-ui.html看效果
+运行项目访问 http://192.168.1.233:8081/swagger-ui.html 看效果
 
 @ApiGroupProperty(value={GroupsUser.Update.class},description="")用于给Model字段分组,value控制所属组,description可以设置不同的字段描述
 
