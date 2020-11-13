@@ -1,0 +1,19 @@
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 8081
+  servlet:
+    # 应用的访问路径
+    context-path: /
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+
+# Spring配置
+spring:
+  application:
+    name: @pom.artifactId@
+#  mvc:
+#    hiddenmethod:
+#      filter:
+#        enabled: true
