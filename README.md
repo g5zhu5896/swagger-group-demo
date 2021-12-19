@@ -10,4 +10,4 @@ swagger api文档 可以用同一个model根据group在不同api里展示不同�
 
 当A对象包含B对象时 要让B对象按分组展示的话B对象需要继承BaseModel,如果B没继承BaseModel则B会展示全部字段
 
-https://blog.csdn.net/g5zhu5896/article/details/109674543 提供简单图文
+https://blog.csdn.net/g5zhu5896/article/details/109674543 提供简单图文介绍
